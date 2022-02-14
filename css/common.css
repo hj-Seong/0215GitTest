@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 30px;
+    background-color: coral;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.nav { 
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.board {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    grid-gap: 10px;
+}
+.memo {
+    border-radius: 10px;
+    background-color: beige;
+}
+.title {
+    text-align: center;
+    border-bottom: solid saddlebrown 1px;
+    padding: 10px;
+}
+.body {
+    padding: 10px;
+    height: 150px;
+}
+
+@media screen and (max-width : 600px) {
+    .board {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        grid-gap: 10px;
+    }
+}
+
+.board_1 {
+    border: solid 1px black;
+    
+}
